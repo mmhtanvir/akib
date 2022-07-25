@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ataur Rahman Akib</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="https://kit.fontawesome.com/b7ddd6d81f.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+      </head>
+      <body>
+        <section class="header">
+            <nav>
+            <a href="index.html"><img src="l.png"></a>
+              <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="am.html">About me</a></li>
+                  <li><a href="mp.html">My photos</a></li>
+                  <li><a href="photos.html">Photos</a></li>
+                  <li><a href="contact.html">contact</a></li>
+                </ul>
+              </div>
+              <i class="fas fa-align-justify" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+              <h1>Ataur Rahman Akib</h1>
+              <p>Welcome to the official website of <b>Ataur Rahman Akib</b>, a well-known singer, song writer, producer and director. <br> Your Nasheed artist who sings for your spiritual awakening<br>A Bangladeshi singer working to bridge between east and west Islamic culture. <br> A singer who interprets Islamic message with your favourite musical rhythm.</p>
+            </div>
+        </section>
+        <section class="footer">
+          <h4>About us</h4>
+          <p>Below are my social accounts contact with me through</p>
+          <div class="icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+          <p>Made with <i class="fa fa-heart-o"></i> by Mahmudul Hasan Tanvir & Muhammad Imtiaz Hossen Oyon</p>
+            <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right='0px'
+    }
+    function hideMenu(){
+      navLinks.style.right='-200px'
+    }
+</script>
+</body>
+</html>
