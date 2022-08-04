@@ -508,16 +508,21 @@ p {
     color: #fff;
 }
 .red-text{
+    margin-top: 60px;
     text-align: center;
 }
 .container {
     margin-top: 100px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 150px;
+}
+.container .ml{
+    top: 0;
+    margin-left: 40px;
 }
 .p {
-    color: #777;
+    color: rgb(58, 58, 58);
     font-size: 15px;
     font-weight: 300;
     line-height: 22px;
@@ -525,4 +530,10 @@ p {
   }
 .ataur .wl{
     color: red;
+    text-align: center;
+    text-decoration: none;
+    font-style: 10px;
+}
+.dwl{
+    text-align: center;
 }
