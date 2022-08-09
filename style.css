@@ -8,7 +8,7 @@
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(1.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
   background-size: cover;
   background-position: center;
   position: relative;
@@ -58,12 +58,15 @@ nav img {
 }
 
 .text-box {
-  width: 90%;
+  width: 100%;
+  margin-top: 25% ;
   text-align: center;
   color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
 }
 
 .text-box h1 {

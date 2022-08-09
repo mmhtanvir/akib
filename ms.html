@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Ataur Rahman Akib</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mstyle.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <script src="https://kit.fontawesome.com/24edac7ed6.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,7 +12,25 @@
       </head>
       <body>
     <section class="header">
-        
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="ms.html">My Songs</a>
+                
+                        <ul>
+                            <li><a href="am.html">About Music</a></li>
+                            <li><a href="allamakarzavi.html">Allama Karzavi</a></li>
+                            <li><a href="sabp.html">Some Ans By Point</a></li>
+                            <li><a href="opinion.html">My Opinion</a></li>
+                            <li><a href="qna.html">Q & A</a></li>
+                        </ul>
+
+                </li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
         <div class="text-box">
           <h1>Ataur Rahman Akib</h1>
           <p>Welcome to the official website of <b>Ataur Rahman Akib</b>, a well-known singer, song writer, producer and director. <br> Your Nasheed artist who sings for your spiritual awakening<br>A Bangladeshi singer working to bridge between east and west Islamic culture. <br> A singer who interprets Islamic message with your favourite musical rhythm.</p>
@@ -20,12 +38,12 @@
         </div>
     </section>
     <script>
-      var navLinks = document.getElementById("navLinks");
+      var docNav = document.getElementById("docNav");
       function showMenu(){
-        navLinks.style.right='0'
+        docNav.style.right='0'
       }
       function hideMenu(){
-        navLinks.style.right='-200px'
+        docNav.style.right='-200px'
       }
   </script>
 </body>
